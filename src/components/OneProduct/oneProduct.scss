@@ -1,0 +1,74 @@
+.product {
+  align-self: center;
+  margin: 1rem;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  &__block {
+    background-color: white;
+    width: 89%;
+    padding: 1rem;
+    border: solid black 1px;
+        
+  }
+  
+  &__block.clicked {
+    background-color: green;
+  }
+ 
+  &__title {
+    justify-content: center;
+      h1 {
+        margin: 0;
+      }
+  }
+  
+  &__cost {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: 200;
+      p {
+        margin: 1rem;
+      }        
+  }
+  
+  &__amount {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: 200;
+      p {
+        margin: 1rem;
+      }
+  }
+  
+  &__icons {
+    display: flex;
+    align-self: center;    
+    justify-content: space-between;
+    font-size: 3rem;
+    
+    i {
+      width: 2.5rem;
+    }
+
+    p {
+      margin: 0;
+    }    
+  }
+
+  .images {
+    width: 10rem;
+    height: 6rem;
+  }   
+}
